@@ -1,6 +1,7 @@
 
 import './App.css'
 import Count from './Count';
+import Users from './Users';
 
 function App() {
 
@@ -19,8 +20,11 @@ function App() {
   return (
     <>
       
-      <h1>Vite + React</h1>
+      <h1>Users Data</h1>
+      <Users></Users>
+
       <Count></Count>
+
       <button onClick={handleClicked}>Click Me</button>
       <button onClick={handleClicked2}>Click 2</button>
       <button onClick={() => alert("third is clicked")}>third</button>
